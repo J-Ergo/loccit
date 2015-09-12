@@ -23,7 +23,17 @@ require 'faker'
      body: Faker::Lorem.paragraph
    )
  end
+
+  50.times do
+   Advertisement.create!(
+     title:  Faker::Lorem.sentence,
+     copy:   Faker::Lorem.paragraph
+
+   )
+ end
+ advertisements = Advertisement.all
  
  puts "Seed finished"
  puts "#{Post.count} posts created"
  puts "#{Comment.count} comments created"
+ puts "#{Advertisement.count} advertisements created"
