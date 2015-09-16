@@ -7,4 +7,13 @@ class User < ActiveRecord::Base
   has_many :posts
 
   default_scope { order('created_at DESC') }
+
+   def admin?
+   role == 'admin'
+ end
+ 
+ def moderator?
+   role == 'moderator'
+ end
+ 
 end
