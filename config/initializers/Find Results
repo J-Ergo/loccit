@@ -1,0 +1,138 @@
+Searching 429 files for "loccit"
+
+/Users/jesusablan/code/loccit/app/views/layouts/application.html.erb:
+    2  <html>
+    3  <head>
+    4:   <title>Loccit</title>
+    5    <meta name="viewport" content="width=device-width, initial-scale=1">
+    6    <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+
+/Users/jesusablan/code/loccit/app/views/topics/Find Results:
+    1  Searching 428 files for "posts_path"
+    2  
+    3: /Users/jesusablan/code/loccit/app/views/layouts/application.html.erb:
+    4     14    <ul class="nav nav-tabs">
+    5     15          <li><%= link_to "Home", root_path %></li>
+
+/Users/jesusablan/code/loccit/app/views/welcome/about.html.erb:
+    1: <h1>About Loccit</h1>
+    2  <p>Created by: <%= my_name %></p>
+
+/Users/jesusablan/code/loccit/app/views/welcome/index.html.erb:
+    1  <br>
+    2  <div class="jumbotron">
+    3:   <h1>Bloccit</h1>
+    4:   <p>Bloccit is a resource for sharing links with your friends!</p>
+    5    <p>
+    6        <%= link_to "Sign In", new_user_session_path, class: 'btn btn-primary' %> or
+    .
+   12    <div class="col-md-4">
+   13      <h2>Solves world hunger</h2>
+   14:     <p>Bloccit will deliver food and water to those in need, all over the world.</p>
+   15    </div>
+   16    <div class="col-md-4">
+   17      <h2>Eliminates poverty</h2>
+   18:     <p>Bloccit will deliver money and education to those in need, all over the world.</p>
+   19    </div>
+   20    <div class="col-md-4">
+   21      <h2>Makes you better looking</h2>
+   22:     <p>Bloccit will make you better looking: it's scientifically proven to make men look like Ryan Gosling and women look like Shakira.</p>
+   23    </div>
+   24  </div>
+
+/Users/jesusablan/code/loccit/config/application.rb:
+   16  Bundler.require(*Rails.groups)
+   17  
+   18: module Loccit
+   19    class Application < Rails::Application
+   20      # Settings in config/environments/* take precedence over those specified here.
+
+/Users/jesusablan/code/loccit/config/environments/production.rb:
+   78    config.active_record.dump_schema_after_migration = false
+   79  
+   80:   config.action_mailer.default_url_options = { host: 'loccit1.herokuapp.com' }
+   81  
+   82  end
+
+/Users/jesusablan/code/loccit/config/initializers/session_store.rb:
+    1  # Be sure to restart your server when you modify this file.
+    2  
+    3: Rails.application.config.session_store :cookie_store, key: '_loccit_session'
+    4  
+
+11 matches across 7 files
+
+
+Searching 429 files for "loccit@"
+
+0 matches across 0 files
+
+
+Searching 429 files for "loccit@"
+
+0 matches across 0 files
+
+
+Searching 429 files for "loccit"
+
+/Users/jesusablan/code/loccit/app/views/layouts/application.html.erb:
+    2  <html>
+    3  <head>
+    4:   <title>Loccit</title>
+    5    <meta name="viewport" content="width=device-width, initial-scale=1">
+    6    <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+
+/Users/jesusablan/code/loccit/app/views/topics/Find Results:
+    1  Searching 428 files for "posts_path"
+    2  
+    3: /Users/jesusablan/code/loccit/app/views/layouts/application.html.erb:
+    4     14    <ul class="nav nav-tabs">
+    5     15          <li><%= link_to "Home", root_path %></li>
+
+/Users/jesusablan/code/loccit/app/views/welcome/about.html.erb:
+    1: <h1>About Loccit</h1>
+    2  <p>Created by: <%= my_name %></p>
+
+/Users/jesusablan/code/loccit/app/views/welcome/index.html.erb:
+    1  <br>
+    2  <div class="jumbotron">
+    3:   <h1>Bloccit</h1>
+    4:   <p>Bloccit is a resource for sharing links with your friends!</p>
+    5    <p>
+    6        <%= link_to "Sign In", new_user_session_path, class: 'btn btn-primary' %> or
+    .
+   12    <div class="col-md-4">
+   13      <h2>Solves world hunger</h2>
+   14:     <p>Bloccit will deliver food and water to those in need, all over the world.</p>
+   15    </div>
+   16    <div class="col-md-4">
+   17      <h2>Eliminates poverty</h2>
+   18:     <p>Bloccit will deliver money and education to those in need, all over the world.</p>
+   19    </div>
+   20    <div class="col-md-4">
+   21      <h2>Makes you better looking</h2>
+   22:     <p>Bloccit will make you better looking: it's scientifically proven to make men look like Ryan Gosling and women look like Shakira.</p>
+   23    </div>
+   24  </div>
+
+/Users/jesusablan/code/loccit/config/application.rb:
+   16  Bundler.require(*Rails.groups)
+   17  
+   18: module Loccit
+   19    class Application < Rails::Application
+   20      # Settings in config/environments/* take precedence over those specified here.
+
+/Users/jesusablan/code/loccit/config/environments/production.rb:
+   78    config.active_record.dump_schema_after_migration = false
+   79  
+   80:   config.action_mailer.default_url_options = { host: 'loccit.herokuapp.com' }
+   81  
+   82  end
+
+/Users/jesusablan/code/loccit/config/initializers/session_store.rb:
+    1  # Be sure to restart your server when you modify this file.
+    2  
+    3: Rails.application.config.session_store :cookie_store, key: '_loccit_session'
+    4  
+
+11 matches across 7 files
