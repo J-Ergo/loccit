@@ -7,6 +7,8 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 require 'faker'
 
+
+
 # Create Users
  5.times do
    user = User.new(
@@ -18,6 +20,15 @@ require 'faker'
    user.save!
  end
  users = User.all
+
+  # Create Topics
+ 15.times do
+   Topic.create!(
+     name:         Faker::Lorem.sentence,
+     description:  Faker::Lorem.paragraph
+   )
+ end
+ topics = Topic.all
  
  # Note: by calling `User.new` instead of `create`,
  # we create an instance of User which isn't immediately saved to the database.
@@ -32,6 +43,7 @@ require 'faker'
    Post.create!(
       user:   users.sample,
      title:  Faker::Lorem.sentence,
+     topic:  topics.sample,
      body:   Faker::Lorem.paragraph
    )
  end

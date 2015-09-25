@@ -1,0 +1,10 @@
+Searching 428 files for "posts_path"
+
+/Users/jesusablan/code/loccit/app/views/layouts/application.html.erb:
+   14    <ul class="nav nav-tabs">
+   15          <li><%= link_to "Home", root_path %></li>
+   16:         <li><%= link_to "Posts", topic_posts_path %></li>
+   17          <li><%= link_to "Advertisements", advertisements_path %></li>
+   18          <li><%= link_to "About", about_path %></li>
+
+1 match in 1 file
